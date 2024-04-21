@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    background-color: #392000;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px !important;
+}
+
+.contents * {
+    font-size: 32px;
+}
+
+.quetion_contents {
+    margin: 0;
+    padding: 20px 0;
+    background-color: #ffeed5;
+}
+
+.nazo_img img {
+    width: 80%;
+    height: 45vw;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: solid 3px #777777;
+    border-radius: 10px;
+}
+
+.nazo_img {
+    display: none;
+}
+
+.quetion button {
+    display: block;
+    margin: 5px auto;
+    color: #000;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    background-color: #ffce8a;
+    width: 80%;
+    height: 40px;
+    border-radius: 1px;
+    border-bottom: 5px solid #645200;
+    font-size: 16px;
+}
+
+.quetion button:hover {
+    background: #ffce8a;
+    border-bottom: 2px solid #645200;
+}
+
+h2 {
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    font-size: 16px !important;
+}
+
+.last_question_img img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
